@@ -1,0 +1,202 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+body
+{
+    font-family: "segoe ui light";
+}
+
+.home
+{
+    background-image: url(shutterstock_277750193.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.home .navbar
+{
+    background-color:rgba(0, 0, 0, 0.5);
+    overflow:hidden;
+}
+
+.home .navbar .logo
+{
+    float: left;
+}
+
+.home .navbar .logo img
+{
+    width: 90px;
+    height: 60px;
+    margin-left:35px;
+}
+
+.home .navbar .links
+{
+    float: left;
+    margin-left:63%;
+}
+
+.home .navbar .links ul
+{
+    list-style: none;
+}
+
+.home .navbar .links ul li
+{
+    float: left;
+    padding:20px 15px 0px 0px;
+    font-weight:bold;
+    color: #FFF;
+}
+
+.home .caption
+{
+    width: 50%;
+    text-align: center;
+    margin:100px auto 0px;
+}
+
+.home .caption img
+{
+    width:350px;
+    height:250px;
+}
+
+.home .caption h1
+{
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.home .caption p
+{
+    font-size: 230%;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:25px;
+}
+
+.home .caption a
+{
+    text-decoration:none;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+} 
+
+
+.home .caption .btn1
+{
+    background-color: #c1ab84;
+    padding: 15px 28px;
+    margin-right:18px;
+}
+
+.home .caption .btn2
+{
+    background-color: #FFF;
+    padding: 15px 28px;
+}
+
+.page2
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page2 .image
+{
+    width: 40%;
+    float: left;
+
+}
+.page2 .image img
+{
+    width: 100%;
+}
+
+.page2 .text
+{
+    float:left;
+    width: 60%;
+    text-align: center;
+    margin-top:230px;
+}
+
+.page2 .text span
+{
+    font-family: 'Dancing Script', cursive;
+    color: #f2ce08;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.page2 .text h2
+{
+    padding-top:15px;
+}
+
+.page2 .text p
+{
+    line-height: 1.86em;
+    color: #868686;
+    padding:30px;
+    font-size: 18px;
+}
+
+.page2 .text button
+{
+    background:none;
+    padding:15px;
+}
+
+.page3
+{
+    background-image: url(bgs.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height:350px;
+}
+
+.page4 .item
+{
+    text-align: center;
+    width: 25%;
+    float:left;
+    margin:50px 0px 70px;
+}
+
+.page4 .item img
+{
+    border-radius: 50%;
+}
+
+.page4 .item h2
+{
+    padding: 20px;
+}
+
+.page4 .item p
+{
+    line-height: 1.86em;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+.page4 .item .brd
+{
+    width: 25%;
+    height: 2px;
+    background-color: #ccc;
+    margin:5px auto 15px;
+
+
